@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horario de Clases</title>
+    <style>
+        body{
+            font-size: 24px;
+        }
+        table {
+            border-collapse: collapse;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .diseño {
+            background-color: #4be29e;
+        }
+        .despliegue {
+            background-color: #e36d77;
+        }
+        .desarrollo-cliente {
+            background-color: #cff4fc;
+        }
+        .desarrollo-servidor {
+            background-color: #fff3cd; 
+        }
+        .empresa {
+            background-color: #f7c85b;
+        }
+        .horario{
+            background-color: rgb(172, 154, 154);
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    </style>
+</head>
+<body>
+
+<table>
+    <thead>
+        <tr class="horario">
+            <th>Horario</th>
+            <th>Lunes</th>
+            <th>Martes</th>
+            <th>Miércoles</th>
+            <th>Jueves</th>
+            <th>Viernes</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td class="horario">16:30/17:20</td>
+            <td class="diseño" rowspan="3">Diseño de interfaces web</td>
+            <td class="diseño" rowspan="2">Diseño de interfaces web</td>
+            <td class="despliegue" rowspan="2">Despliegue de aplicaciones web</td>
+            <td class="despliegue" rowspan="2">Despliegue de aplicaciones web</td>
+            <td class="diseño" rowspan="2">Diseño de interfaces web</td>
+        </tr>
+        <tr>
+            <td class="horario">17:20/18:10</td>
+        </tr>
+        <tr>
+            <td class="horario">18:10/19:00</td>
+            <td class="empresa">Empresa e iniciativa emprendedora</td>
+            <td class="desarrollo-cliente" rowspan="2">Desarrollo web en entorno cliente</td>
+            <td class="desarrollo-cliente" rowspan="2">Desarrollo web en entorno cliente</td>
+            <td class="desarrollo-cliente" rowspan="2">Desarrollo web en entorno cliente</td>
+        </tr>
+        <tr>
+            <td class="horario">19:15/20:05</td>
+            <td class="despliegue">Despliegue de aplicaciones web</td>
+            <td class="desarrollo-cliente">Desarrollo web en entorno cliente</td>
+        </tr>
+        <tr>
+            <td class="horario">20:05/20:55</td>
+            <td class="desarrollo-servidor" rowspan="2">Desarrollo web en entorno servidor</td>
+            <td class="desarrollo-servidor" rowspan="2">Desarrollo web en entorno servidor</td>
+            <td class="desarrollo-servidor" rowspan="2">Desarrollo web en entorno servidor</td>
+            <td class="desarrollo-servidor" rowspan="2">Desarrollo web en entorno servidor</td>
+            <td class="empresa" rowspan="2">Empresa e iniciativa emprendedora</td>
+        </tr>
+        <tr>
+            <td class="horario">20:55/21:45</td>
+        </tr>
+    </tbody>
+</table>
+
+</body>
+</html>
